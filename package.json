@@ -22,5 +22,9 @@
   "homepage": "https://github.com/plkujaw/js-color-flipper#readme",
   "devDependencies": {
     "jest": "^26.0.1"
+  },
+  
+  "scripts": {
+    "test": "jest"
   }
 }
