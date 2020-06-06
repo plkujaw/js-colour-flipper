@@ -1,5 +1,8 @@
 {
   "name": "js-colour-flipper",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "background colour generator and flipper written in vanilla js",
   "main": "app.js",

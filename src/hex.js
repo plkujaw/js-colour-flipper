@@ -23,7 +23,7 @@ function setRandomHexColourBackground() {
   const hexColour = getRandomHexColour();
   document.body.style.backgroundColor = hexColour;
   colour.textContent = hexColour;
-  colour.style.color = hexColour;
+  // colour.style.color = hexColour;
 }
 
-module.exports = { hex, btn, colour, getRandomNumber, getRandomHexColour, setRandomHexColourBackground }
+// module.exports = { hex, btn, colour, getRandomNumber, getRandomHexColour, setRandomHexColourBackground };

@@ -256,6 +256,5 @@ main {
 }
 
 .colour {
-  /* color      : var(--clr-primary-5); */
   font-family: var(--ff-secondary);
 }
