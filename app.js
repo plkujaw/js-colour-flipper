@@ -6,16 +6,16 @@ const colour = document.querySelector(".colour");
     setRandomBackground();
   });
 
-function getRandomColour() {
+function getRandomNumber() {
   // get random number between 0 and colours array length
   return Math.floor(Math.random() * colours.length);
 }
 
 function setRandomBackground() {
-  const backgroundColour = getRandomColour();
+  const backgroundColour = getRandomNumber();
   document.body.style.backgroundColor = colours[backgroundColour];
   colour.textContent = colours[backgroundColour];
   colour.style.color = colours[backgroundColour];
 }
 
-module.exports = { colours, btn, colour, getRandomColour, setRandomBackground }
+module.exports = { colours, btn, colour, getRandomNumber, setRandomBackground }

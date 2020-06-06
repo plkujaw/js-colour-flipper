@@ -25,3 +25,5 @@ function setRandomHexColourBackground() {
   colour.textContent = hexColour;
   colour.style.color = hexColour;
 }
+
+module.exports = { hex, btn, colour, getRandomNumber, getRandomHexColour, setRandomHexColourBackground }
