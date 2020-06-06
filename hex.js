@@ -4,8 +4,8 @@ const btn = document.getElementById("btn");
 const colour = document.querySelector(".colour");
 
 btn.addEventListener("click", function() {
-  getRandomHexColour();
-})
+  setRandomHexColourBackground();
+});
 
 function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
@@ -16,12 +16,12 @@ function getRandomHexColour() {
   for (let i = 0; i < 6; i++) {
     hexColour += hex[getRandomNumber()]
   }
-
-  document.body.style.backgroundColor = hexColour;
-  colour.textContent = hexColour;
-  colour.style.color = hexColour;
+  return hexColour;
 }
 
 function setRandomHexColourBackground() {
-
+  const hexColour = getRandomHexColour();
+  document.body.style.backgroundColor = hexColour;
+  colour.textContent = hexColour;
+  colour.style.color = hexColour;
 }
