@@ -3,6 +3,7 @@
 Fonts
 ===============
 */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /*
 ===============
@@ -42,7 +43,7 @@ Variables
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black      : #222;
   --ff-primary     : "Lato", sans-serif;
-  --ff-secondary   : "Open Sans", sans-serif;
+  --ff-secondary   : "Inconsolata", monospace;
   --transition     : all 0.3s linear;
   --spacing        : 0.25rem;
   --radius         : 0.5rem;
@@ -65,7 +66,7 @@ Global Styles
 }
 
 body {
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-primary);
   background : var(--clr-grey-10);
   color      : var(--clr-grey-1);
   line-height: 1.5;
@@ -253,5 +254,6 @@ main {
 }
 
 .colour {
-  color: var(--clr-primary-5);
+  color      : var(--clr-primary-5);
+  font-family: var(--ff-secondary);
 }
