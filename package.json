@@ -1,0 +1,26 @@
+{
+  "name": "js-colour-flipper",
+  "version": "1.0.0",
+  "description": "background colour generator and flipper written in vanilla js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plkujaw/js-color-flipper.git"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript"
+  ],
+  "author": "Kuba Jawor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plkujaw/js-color-flipper/issues"
+  },
+  "homepage": "https://github.com/plkujaw/js-color-flipper#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
