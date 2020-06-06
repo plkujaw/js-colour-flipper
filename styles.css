@@ -36,12 +36,14 @@ Variables
   --clr-grey-8     : hsl(210, 31%, 80%);
   --clr-grey-9     : hsl(212, 33%, 89%);
   --clr-grey-10    : hsl(206, 33%, 96%);
-  --clr-white      : #fff;
+  --clr-white      : #abb2bf;
   --clr-red-dark   : hsl(360, 67%, 44%);
   --clr-red-light  : hsl(360, 71%, 66%);
+  --clr-green      : #98c379;
   --clr-green-dark : hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
-  --clr-black      : #222;
+  --clr-black      : #282c34;
+  --clr-blue       : #61afef;
   --ff-primary     : "Lato", sans-serif;
   --ff-secondary   : "Inconsolata", monospace;
   --transition     : all 0.3s linear;
@@ -211,7 +213,7 @@ nav {
 
 .nav-center h4 {
   margin-bottom: 0;
-  color        : var(--clr-primary-5);
+  color        : var(--clr-black);
 }
 
 .nav-links {
@@ -228,7 +230,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-10);
 }
 /*
 ===============
@@ -254,6 +256,6 @@ main {
 }
 
 .colour {
-  color      : var(--clr-primary-5);
+  /* color      : var(--clr-primary-5); */
   font-family: var(--ff-secondary);
 }
