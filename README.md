@@ -6,12 +6,15 @@ Background colour generator and flipper written in Vanilla JavaScript.
 
 In the 'simple' mode, the background colour is chosen randomly from the predefined range of colours.
 
-In the 'hex' mode, the background colour is generated randomly 'on the fly' in hexadecimal format
+In the 'hex' mode, the background colour is generated randomly 'on the fly' in hexadecimal format.
+
+In the 'rgba'  mode, the background colour is generated randomly 'on the fly' in rgba format.
+
 Background colour is also randomly chosen/generated on page load.
 
 ### Demo
 
-[![](https://github.com/plkujaw/js-colour-flipper/blob/7027b1062875e58782c7a88887f27bb9c826c088/demo.gif)](#)
+[![](https://raw.githubusercontent.com/plkujaw/js-colour-flipper/master/demo.gif)](#)
 
 ### How to run the app
 
